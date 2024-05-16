@@ -96,5 +96,16 @@ function getSpinResultMessage(slot1, slot2, slot3, winnings, getLang) {
   }
 }
 
+module.exports = {
+        config: {
+                name: "Countdown",
+                version: "1.0",
+                author: "Krvii",
+                countDown: 8,
+                role: 0,
+                description: "Countdown for slot",
+                category: "config",
+                guide: {
+                  
 module.exports.calculateWinnings = calculateWinnings;
 module.exports.getSpinResultMessage = getSpinResultMessage;
