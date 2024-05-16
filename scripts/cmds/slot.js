@@ -33,12 +33,12 @@ module.exports.config = {
 
 module.exports.langs = {
   en: {
-    invalid_amount: "Please enter a valid and positive amount to have a chance to win double.",
+    invalid_amount: "Paano tayo maglalaro kung wala kang e susugal bobo ampota.",
     not_enough_money: "Wala kang sapat na pera gar utang ka muna.",
     spin_message: "Spinning...",
     win_message: "Congrats Gar Tanginamo! You won $%1 with symbols: %2 %3 %4!",
-    lose_message: "Oops!Napakabobo You lost $%1. Malasin kapa sana.",
-    jackpot_message: "🎉 Jackpot! You won $%1 with three %2 symbols! 🎉",
+    lose_message: "Oops! Napakabobo You lost $%1. Malasin kapa sana.",
+    jackpot_message: "🎉 Jackpot! SOGO na yan later You won $%1 with three %2 symbols! 🎉",
   },
 };
 
