@@ -78,7 +78,7 @@ module.exports = {
       const correctAnswers = Reply.correctAnswer.map(name => name.toLowerCase());
 
      
-      if (event.senderID !== Reply.senderID) return;
+      if (event.userID !== Reply.userID) return;
 
       if (correctAnswers.includes(userAnswer)) {
         await this.addCoins(event.senderID, 1000);
