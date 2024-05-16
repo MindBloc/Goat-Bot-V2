@@ -22,7 +22,7 @@ module.exports.config = {
   version: "1.0",
   role: 0,
   author: "JISHAN76",
-  countDown: 9,
+  countDown: 10,
   shortDescription: {
     en: "Slot game",
   },
@@ -34,12 +34,12 @@ module.exports.config = {
 
 module.exports.langs = {
   en: {
-    invalid_amount: "MAGLAGAY KA NG TAYA HAYS.",
-    not_enough_money: "WALA KANG BALANCE UMUTANG KA MUNA.",
+    invalid_amount: "Maglagay ka muna ng pusta.",
+    not_enough_money: "Wala kang balance palamunin.",
     spin_message: "Spinning...",
-    win_message: "Congratulations MAY PANG GOOD ITEM NANAMAN SI ACKLA ! You won $%1 with symbols: %2 %3 %4!",
-    lose_message: "TALO KA KAWAWA AMPOTA You lost $%1.",
-    jackpot_message: "🎉 Jackpot! PWEDE KANA UMUWI You won $%1 with three %2 symbols! 🎉",
+    win_message: "Congratulations! Nanalo ka good item nanaman $%1 with symbols: %2 %3 %4!",
+    lose_message: "Oops! Talo $%1. Sana malasin ka pa.",
+    jackpot_message: "🎉 Jackpot! Nanalo ka $%1 with three %2 symbols! 🎉",
   },
 };
 
