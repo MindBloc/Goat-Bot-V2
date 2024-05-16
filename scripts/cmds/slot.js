@@ -1,7 +1,7 @@
-const coolEmojis = ["🖕", "⭐", "💎", "🧃", "🏵", "🍭", "🎰"];
+const coolEmojis = ["🔥", "⭐", "💎", "🧃", "🏵", "🍭", "🎰"];
 
 function getRandomEmoji() {
-  const winSymbols = ["🔥", "🤮", "🍭","⭐", "💎"]; // Symbols with higher win chance
+  const winSymbols = ["🔥", "🌈", "🍭","⭐", "💎"]; // Symbols with higher win chance
 
   const randomIndex = Math.floor(Math.random() * coolEmojis.length);
   const emoji = coolEmojis[randomIndex];
@@ -34,12 +34,12 @@ module.exports.config = {
 
 module.exports.langs = {
   en: {
-    invalid_amount: "Paano tayo maglalaro kung wala kang e susugal bobo ampota.",
-    not_enough_money: "Wala kang sapat na pera gar utang ka muna.",
+    invalid_amount: "MAGLAGAY KA NG TAYA BOBO.",
+    not_enough_money: "WALA KANG BALANCE TANGINAMO UMUTANG KA MUNA.",
     spin_message: "Spinning...",
-    win_message: "Congrats Gar Tanginamo! You won $%1 with symbols: %2 %3 %4!",
-    lose_message: "Oops! Napakabobo You lost $%1. Malasin kapa sana.",
-    jackpot_message: "🎉 Jackpot! SOGO na yan later You won $%1 with three %2 symbols! 🎉",
+    win_message: "Congratulations GAR! You won $%1 with symbols: %2 %3 %4!",
+    lose_message: "TALO KA TANGINA HAHA You lost $%1. Better luck next time.",
+    jackpot_message: "🎉 Jackpot!SOGO NA LATER You won $%1 with three %2 symbols! 🎉",
   },
 };
 
@@ -96,6 +96,6 @@ function getSpinResultMessage(slot1, slot2, slot3, winnings, getLang) {
     return `${loseMessage}\n${slotMessage}`;
   }
 }
-                  
+
 module.exports.calculateWinnings = calculateWinnings;
 module.exports.getSpinResultMessage = getSpinResultMessage;
