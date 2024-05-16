@@ -34,10 +34,10 @@ module.exports.config = {
 module.exports.langs = {
   en: {
     invalid_amount: "Please enter a valid and positive amount to have a chance to win double.",
-    not_enough_money: "You don't have enough balance to place that bet.",
+    not_enough_money: "Wala kang sapat na pera gar utang ka muna.",
     spin_message: "Spinning...",
-    win_message: "Congratulations! You won $%1 with symbols: %2 %3 %4!",
-    lose_message: "Oops! You lost $%1. Better luck next time.",
+    win_message: "Congrats Gar Tanginamo! You won $%1 with symbols: %2 %3 %4!",
+    lose_message: "Oops!Napakabobo You lost $%1. Malasin kapa sana.",
     jackpot_message: "🎉 Jackpot! You won $%1 with three %2 symbols! 🎉",
   },
 };
@@ -98,3 +98,13 @@ function getSpinResultMessage(slot1, slot2, slot3, winnings, getLang) {
 
 module.exports.calculateWinnings = calculateWinnings;
 module.exports.getSpinResultMessage = getSpinResultMessage;
+module.exports = {
+        config: {
+                name: "prefix",
+                version: "1.4",
+                author: "NTKhang",
+                countDown: 5,
+                role: 0,
+                description: "Thay đổi dấu lệnh của bot trong box chat của bạn hoặc cả hệ thống bot (chỉ admin bot)",
+                category: "config",
+                guide: {
