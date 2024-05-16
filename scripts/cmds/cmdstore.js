@@ -2,7 +2,7 @@ const axios = require("axios");
 
 module.exports = {
   config: {
-    name: 'cmst',
+    name: 'cmdstore',
     version: '1.0',
     author: 'Vex_Kshitiz',
     role: 0,
