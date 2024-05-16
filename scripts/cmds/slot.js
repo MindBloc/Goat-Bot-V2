@@ -22,7 +22,7 @@ module.exports.config = {
   version: "1.0",
   role: 0,
   author: "JISHAN76",
-  countDown: 8,
+  countDown: 15,
   shortDescription: {
     en: "Slot game",
   },
