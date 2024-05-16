@@ -20,9 +20,9 @@ function getRandomEmoji() {
 module.exports.config = {
   name: "slot",
   version: "1.0",
-  countDown: 8,
   role: 0,
   author: "JISHAN76",
+  countDown: 8,
   shortDescription: {
     en: "Slot game",
   },
