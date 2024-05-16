@@ -98,13 +98,3 @@ function getSpinResultMessage(slot1, slot2, slot3, winnings, getLang) {
 
 module.exports.calculateWinnings = calculateWinnings;
 module.exports.getSpinResultMessage = getSpinResultMessage;
-module.exports = {
-        config: {
-                name: "prefix",
-                version: "1.4",
-                author: "NTKhang",
-                countDown: 5,
-                role: 0,
-                description: "Thay đổi dấu lệnh của bot trong box chat của bạn hoặc cả hệ thống bot (chỉ admin bot)",
-                category: "config",
-                guide: {
