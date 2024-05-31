@@ -1,4 +1,4 @@
-.cmd install mock.js module.exports.config = {
+module.exports.config = {
   name: "mock",
 	version: "2.0",
 	author: "Null69",
