@@ -9,7 +9,7 @@ const { getPrefix } = global.utils;
 
 const { commands, aliases } = global.GoatBot;
 
-const doNotDelete = "[ 서준석 MBloc AI ]"; // changing this wont change the goatbot V2 of list cmd it is just a decoyy
+const doNotDelete = "[ Pam MBloc AI ]"; // changing this wont change the goatbot V2 of list cmd it is just a decoyy
 
 
 
@@ -21,7 +21,7 @@ module.exports = {
 
     version: "1.17",
 
-    author: "NTKhang", // original author Kshitiz 
+    author: "Krvii", // original author Kshitiz 
 
     countDown: 5,
 
@@ -66,7 +66,7 @@ module.exports = {
     if (args.length === 0) {
 
       const categories = {};
-      const botname = "🤖: MBloc AI | 서준석";
+      const botname = "🤖: MBloc AI | Pam";
 
       let msg = "";
 
